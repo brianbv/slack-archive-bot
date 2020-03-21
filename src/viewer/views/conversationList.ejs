@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+<body>
+  <h2>Conversations</h2>
+  <table>
+      <thead>
+          <tr>
+              <td>conversationId</td>
+              <td>archivedBy</td>
+              <td>Note</td>
+              <td>Date</td> 
+              <td></td>
+          </tr>
+
+          <% for(var i=0;i<conversations.length;i++) { %>
+                <tr>
+                        <td><%=conversations[i].conversationId %></td>
+                        <td><%=conversations[i].archivedBy %></td>
+                        <td><%=conversations[i].summary %></td>
+                        <td><%=conversations[i].archiveDate %></td>
+                        <td><a href="/conversation/<%=conversations[i].conversationId %>">View</a></td>
+                    </tr>
+            
+          <% } %>
+      </thead>
+
+ 
+  </table>
+
+</body>
+</html>
