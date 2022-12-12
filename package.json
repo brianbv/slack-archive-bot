@@ -12,7 +12,7 @@
     "@slack/bolt": "^1.7.0",
     "@slack/web-api": "^5.8.0",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "rimraf": "^3.0.2",
